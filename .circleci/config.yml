@@ -73,9 +73,9 @@ workflows:
       - build:
           requires:
             - lint
-      - test:
-          requires:
-            - lint
-      - e2e:
-          requires:
-            - lint
+#       - test:
+#           requires:
+#             - lint
+#       - e2e:
+#           requires:
+#             - lint
