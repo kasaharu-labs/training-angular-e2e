@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Aliasing', () => {
+xcontext('Aliasing', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/aliasing')
   })

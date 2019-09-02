@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Window', () => {
+xcontext('Window', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/window')
   })

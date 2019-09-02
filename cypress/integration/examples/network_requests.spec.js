@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Network Requests', () => {
+xcontext('Network Requests', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/network-requests')
   })

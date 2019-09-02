@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Waiting', () => {
+xcontext('Waiting', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/waiting')
   })
