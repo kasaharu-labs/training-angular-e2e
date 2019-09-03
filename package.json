@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "cypress": "cypress open",
+    "cypress:open": "cypress open",
     "cypress:ci": "cypress run --record --key $NG_E2E_CYPRESS_RECORD_KEY",
     "prettier": "prettier --write './**/*.{ts,html,scss}'",
     "prettier:check": "prettier --check './**/*.{ts,html,scss}'"
