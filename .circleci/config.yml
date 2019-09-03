@@ -69,6 +69,7 @@ jobs:
       - run: echo "Start e2e test using cypress"
       - *restore_node_modules
       - run: yarn start &
+      - run: yarn cypress install
       - run: yarn cypress -v
       - run: yarn cypress:ci
       - run: lsof -t -i:4200 | xargs kill
