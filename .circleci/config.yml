@@ -68,7 +68,9 @@ jobs:
       - checkout
       - run: echo "Start e2e test using cypress"
       - *restore_node_modules
-      - run: yarn start &
+      - run:
+          command: yarn start
+          background: true
       - run: yarn cypress install
       - run: yarn cypress -v
       - run: yarn wait-on http://localhost:4200 && yarn cypress:ci
