@@ -74,6 +74,8 @@ jobs:
       - run: yarn cypress install
       - run: yarn cypress -v
       - run: yarn wait-on http://localhost:4200 && yarn cypress:ci
+      - store_artifacts:
+          path: cypress/screenshots
 
 workflows:
   version: 2
