@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --extra-webpack-config webpack.partial.js",
+    "build": "ng build --extra-webpack-config webpack.partial.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -23,6 +23,8 @@
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
+    "@bundle-analyzer/webpack-plugin": "^0.5.0",
+    "ngx-build-plus": "^8.1.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
